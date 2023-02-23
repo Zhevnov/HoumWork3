@@ -12,7 +12,7 @@
     A (7,-5, 0); B (1,-1,9) -> 11.53
     */
 
-/*
+
 double getDistance(double xa, double ya, double ia, double xb, double yb, double ib) {
     return Math.Sqrt((xb - xa) * (xb - xa) + (yb - ya) * (yb - ya) + (ib -ia) * (ib - ia));
 }
@@ -31,7 +31,7 @@ Console.Write("Введите координату i второй точки: ")
 double ib = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("Расстояние между точками: " + Math.Round(getDistance( xa, ya, ia, xb, yb, ib),1));
-*/
+
 
     /*Задача 23
     Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
@@ -39,7 +39,7 @@ Console.WriteLine("Расстояние между точками: " + Math.Roun
     5 -> 1, 8, 27, 64, 125
     */
 
-/*void squareTable(int n) {
+void squareTable(int n) {
     int currentNumber = 1;
     while (currentNumber <= n)
     {
@@ -53,4 +53,4 @@ if(n > 0)
     squareTable(n);
 else
 Console.Write("Введите число больше 0");
-*/
+
